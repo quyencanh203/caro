@@ -6,7 +6,6 @@ from ai import *
 from board import *
 
 
-
 class main:
     def __init__(self, master) -> None:
         self.current_player = player.player_move()
@@ -47,6 +46,8 @@ class main:
                    self.current_player = ai.ai_move()
                 else:
                    self.current_player = player.player_move()
+                   # cap nhap ai move
+                   ai.ai_move()
  
         # hàm kiểm tra chiến thắng 
     def check_winner(self, row, col):

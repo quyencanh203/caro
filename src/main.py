@@ -1,5 +1,4 @@
 import tkinter as tk
-import AI 
 
 class CaroGame:
     # hàm khời tạo constructor 

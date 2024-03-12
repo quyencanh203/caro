@@ -9,11 +9,11 @@ class Ai(Entity):
         
         return 'O'
 
-    def minimaxab(board, isMaximizingPlayer, depth, values, alpha, beta):
+    def minimax(board, isMaximizingPlayer, depth, values, alpha, beta):
         
         pass
 
     # heristic 
     def findBestMove(broad):
-
+        
         pass

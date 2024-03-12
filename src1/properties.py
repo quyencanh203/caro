@@ -1,2 +1,2 @@
-rows = 12
-columns = 19 
+rows = 11
+columns = 11 
